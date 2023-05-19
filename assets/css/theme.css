@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* 
+
+FONT NAME
+font-family: 'Inter', sans-serif;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0px
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #241f1a;
+    background-color: #FDFDFC;
+}
+a{
+    text-decoration: none;
+    color:#241F1A
+}
+
+/* BREADCRUMB */
+.breadcrumb-item.active {
+    /* color: var(--bs-breadcrumb-item-active-color); */
+    color: #000;
+    font-weight: 600;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+/* BREADCRUMB */
+
+/* Product Information and Images */
+.feactureImag img{
+    border-radius: 5px;
+}
+.galleryImag img{
+    border-radius: 5px;
+}
+ul li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.reating-star{
+    margin: 0px;
+    padding: 0px;
+}
+.reating-star li .bxs-star{
+    color: #F5C60D;
+}
+.reating-star li i{
+    word-spacing: 2px;
+}
+.buyButton {
+    padding: 10px;
+    width: 100%;
+    border: 0px;
+    border-radius: 5px;
+    color: #000;
+    background: #FF9111;
+    font-weight: 600;
+}
+.addcart{
+    padding: 10px;
+    width: 50%;
+    border: 0px;
+    border-radius: 5px;
+    color: #000;
+    background: #FF9111;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.new-clr{
+    background: #FFF8F0;
+}
+/* Product Information and Images */
+
+/* shrot link */
+.shortLink ul li{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    color:#241F1A;
+    margin-left: 20px;
+}
+.shortactive{
+    font-weight: 600;
+    color:#FF9111 !important;
+    margin-left:0px !important;
+}
+
+/* short link */
+
+
+/* Feature Product */
+.pstock{
+    color:#FF9111;
+}
+.sldier-card{
+    padding:10px;
+    border: 0px;
+}
+.splide__slide img {
+    vertical-align: bottom;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.feature-cardbtn{
+    width:100%;
+    background-color: #ff9111;
+    border-radius: 5px;
+    border: none !important;
+    padding: 10px 30px;
+    color: #000;
+    font-weight: 600;
+}
+.feature-cardbtn:hover {
+    background: #ff8e00;
+    color: #fff;
+    border: 0px;
+}
+.splide__slide {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    list-style-type: none!important;
+    margin: 0;
+    outline: none;
+    position: relative;
+    height: auto;
+    height: auto !important;
+}
+
+.splide__pagination__page {
+    background: #fff;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    margin: 3px;
+    opacity: .7;
+    padding: 0;
+    transition: transform .2s linear;
+    width: 8px;
+    position: absolute;
+    bottom: -21px;
+    width: 50px !important;
+    border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+}
+.splide__arrow--prev {
+    left: 400px !important;
+}
+.splide__arrow--next {
+    right: 400px !important;
+}
+.splide__arrow {
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2em;
+    -ms-flex-pack: center;
+    justify-content: center;
+    opacity: .7;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+    margin: 10px 0;
+}
+.slide-color{
+    background-color: #FFF8F0;
+}
+.splide__pagination__page.is-active {
+    background: rgb(255, 255, 255);
+    transform: scale(1.4);
+    display: none;
+}
+/* FOOTER SECTION */
+.footer{
+    background-color:#232323;
+    padding: 50px;
+}
+.footer p{
+    color: #fff;
+    margin-top: 15px;
+}
+.footer ul li{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+}
+ul{
+    padding: 0px !important;
+}
+.footer-link h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer-link ul li{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.under-li ul li{
+    display: inline-block;
+}
+.under-li ul li img{
+    width: 25%;
+}
+.under-li img{
+    width:7%;
+}
+.copyright a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 30px 0 0;
+}
+
+
+.socila-icon ul li{
+    display: inline-block;
+}
+
+.socila-icon img{
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* RESPONIVE DESIGN */
+
+@media only screen and (min-width: 600px) {
+
+}
